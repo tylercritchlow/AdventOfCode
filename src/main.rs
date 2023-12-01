@@ -5,7 +5,7 @@ use std::fs::read_to_string;
 //
 
 fn main() {
-    let numberConversions: HashMap<&str, i32> = HashMap::from([
+    let number_conversions: HashMap<&str, i32> = HashMap::from([
         // key, value
         ("one", 1),
         ("two", 2),
@@ -18,7 +18,7 @@ fn main() {
         ("nine", 9),
     ]);
 
-    let mut lines: Vec<&str> = vec!["1eodio2"];
+    let lines: Vec<&str> = vec!["1eodio2"];
     let mut current_digits = Vec::new();
     let mut sum = 0;
 
